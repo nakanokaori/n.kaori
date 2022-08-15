@@ -1,0 +1,81 @@
+td {
+	border:  2px solid #333;
+	height:  100px;
+	width:  100px;
+	text-align:  center;
+	vertical-align:  middle;
+	font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-size:  70px;
+	cursor: pointer;
+}
+
+table {
+	border-collapse: collapse;
+	position: absolute;
+	left: 50%;
+	margin-left: -155px;
+	top: 50px;
+}
+
+table tr:first-child td {
+	border-top: 0;
+}
+
+table tr:last-child td {
+	border-bottom: 0;
+}
+
+table tr td:first-child {
+	border-left: 0;
+}
+
+table tr td:last-child {
+	border-right: 0;
+}
+
+.endgame {
+  display: none;
+  width: 200px;
+  top: 120px;
+  background-color: rgba(53, 203, 37, 0.8);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+
+
+.replay {
+	position: relative;
+	display: inline-block;
+	background-color: white;
+	border: 2px solid black;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 15px 20px;
+	margin: 30px 50px;
+	cursor: pointer;
+	transition: all 0.3s;
+	color: black;
+	text-decoration: none !important;
+	box-shadow: 2px 2px 0 0 black;
+  	border-radius: 7px;
+}
+
+.replay:hover {
+	background-color: white;
+	color: black;
+	transform: translate(2px, 2px);
+  	box-shadow: none;
+}
+
+
+ 
+
